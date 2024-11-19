@@ -1,0 +1,124 @@
+
+*{
+    margin: 0%;
+    padding: 0%
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    background-image: url(https://images.unsplash.com/photo-1724922015507-5593a41f39a6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpZ2h0JTIwY29sb3VyfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-color: rgb(75, 74, 78);
+
+}
+.row button:hover{
+    background-color: rgb(12, 121, 85);
+    color: antiquewhite;
+}
+.card :hover{
+    background-color: rgb(250, 194, 148); }
+  
+  
+.row button{
+    border-color: black;
+    background-color: rgb(233, 250, 134)
+}
+.image :hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 20;
+    border-radius: 2px;
+}
+.footer__nav ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    gap:20px;
+    text-decoration: none;
+    color: azure;
+
+}
+.footer__nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1rem;
+}
+.footer{
+    background-color: black;
+     font-size: }
+
+     .footer__nav ul li a :hover {
+        background-color: aqua;
+        color: brown;
+     }
+     .footer {
+        background-color: black;
+        color: rgb(255, 255, 255);
+      }
+      
+      .footer .footer-text {
+        font-weight: 600;
+        font-size: 1.2em;
+      }
+      
+      .footer-links a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+      .footer-links a:hover {
+        color: #ff4800;
+      }
+      
+      .contact-info i {
+        color: #ffff;
+      }
+      
+      .contact-info i:hover {
+        color: #ff4800;
+      }
+      .list-inline i {
+        color: rgb(255, 255, 255);
+        font-size: 1.4rem;
+      }
+      
+      .list-inline i:hover {
+        color: #ff4800;
+      }
+      
+      .newsletter-form input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #f95300;
+      }
+      
+      .newsletter-form button {
+        background-color: #ff4800;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      
+      .newsletter-form button:hover {
+        background-color: #ff4800;
+      }
+      
+      .underline {
+        width: 50px;
+        height: 3px;
+        background-color: #ffffff;
+      }
+
+
+
+
+
